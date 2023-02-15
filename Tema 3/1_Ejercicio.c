@@ -22,6 +22,6 @@ int main(){
     printf("\nModulo del vector >> %f\n",modulo);
     printf("Media del vector >> %f\n",media);
     printf("Vector unitario >> (%f , %f , %f)\n",vector1, vector2, vector3);
-    
+
     return 0;
 }
