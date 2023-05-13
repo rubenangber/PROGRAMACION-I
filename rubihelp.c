@@ -1,15 +1,26 @@
 #include "rubihelp.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 #include <time.h>
 
+void fillVector(int *vector, int tam) {
+    srand(time(NULL));
+
+    for (int i = 0; i < tam; i++) {
+        vector[i] = rand() % 100; 
+    }
+}
+
+void seeVector(int *vector, int tam) {
+    for (int i = 0; i < tam; i++) {
+        printf("%d ", vector[i]);
+    }
+}
+
 void fillMatriz(int **matriz, int filas, int columnas) {
-    srand(time(NULL)); // Inicializar el generador de números aleatorios
+    srand(time(NULL));
 
     for (int i = 0; i < filas; i++) {
         for (int j = 0; j < columnas; j++) {
-            matriz[i][j] = rand() % 100; // Generar número aleatorio entre 0 y 99
+            matriz[i][j] = rand() % 100;
         }
     }
 }
