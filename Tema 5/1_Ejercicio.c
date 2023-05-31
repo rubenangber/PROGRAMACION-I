@@ -6,7 +6,7 @@ int main() {
     int num, suma = 0, i = 0;
 
     while (i < N) {
-        printf("Introduzca un numero >> ");
+        printf("Introduzca el %d numero >> ", i + 1);
         scanf("%d", &num);
         suma = suma + num;
         i++;
