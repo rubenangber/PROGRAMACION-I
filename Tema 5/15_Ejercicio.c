@@ -5,7 +5,7 @@
 
 int main() {
     float nota;
-    int cuantos = 0, c_sobre = 0, c_not = 0, c_ap = 0, c_sus = 0, c_def = 0;
+    float cuantos = 0, c_sobre = 0, c_not = 0, c_ap = 0, c_sus = 0, c_def = 0;
     float por_sobre = 0, por_not = 0, por_ap = 0, por_sus = 0, por_def = 0, media = 0;
 
     printf("Introduce una nota >> ");
@@ -39,21 +39,21 @@ int main() {
     por_def = (c_def / cuantos) * 100.0;
 
     if (media >= 5.0) {
-        printf("Total alumnos presentados a examen >> %d\n", cuantos);
-        printf("Numero de sobresalientes >> %d (%f%%)\n", c_sobre, por_sobre);
-        printf("Numero de notables >> %d (%f%%)\n",c_not, por_not);
-        printf("Numero de aprobados >> %d (%f%%)\n", c_ap, por_ap);
-        printf("Numero de suspensos >> %d (%f%%)\n", c_sus, por_sus);
-        printf("Numero de muy deficientes >> %d (%f%%)\n", c_def, por_def);
-        printf("Nota media >> %f (Aprobado)\n", media);
+        printf("Total alumnos presentados a examen >> %.0f\n", cuantos);
+        printf("Numero de sobresalientes >> %.0f (%.2f%%)\n", c_sobre, por_sobre);
+        printf("Numero de notables >> %.0f (%.2f%%)\n",c_not, por_not);
+        printf("Numero de aprobados >> %.0f (%.2f%%)\n", c_ap, por_ap);
+        printf("Numero de suspensos >> %.0f (%.2f%%)\n", c_sus, por_sus);
+        printf("Numero de muy deficientes >> %.0f (%.2f%%)\n", c_def, por_def);
+        printf("Nota media >> %.0f (Aprobado)\n", media);
     } else {
-        printf("Total alumnos presentados a examen >> %d\n", cuantos);
-        printf("Numero de sobresalientes >> %d (%f%%)\n", c_sobre, por_sobre);
-        printf("Numero de notables >> %d (%f%%)\n",c_not, por_not);
-        printf("Numero de aprobados >> %d (%f%%)\n", c_ap, por_ap);
-        printf("Numero de suspensos >> %d (%f%%)\n", c_sus, por_sus);
-        printf("Numero de muy deficientes >> %d (%f%%)\n", c_def, por_def);
-        printf("Nota media >> %f (Suspenso)\n", media);
+        printf("Total alumnos presentados a examen >> %.0f\n", cuantos);
+        printf("Numero de sobresalientes >> %.0f (%.2f%%)\n", c_sobre, por_sobre);
+        printf("Numero de notables >> %.0f (%.2f%%)\n",c_not, por_not);
+        printf("Numero de aprobados >> %.0f (%.2f%%)\n", c_ap, por_ap);
+        printf("Numero de suspensos >> %.0f (%.2f%%)\n", c_sus, por_sus);
+        printf("Numero de muy deficientes >> %.0f (%.2f%%)\n", c_def, por_def);
+        printf("Nota media >> %.0f (Suspenso)\n", media);
     }
 
     return 0;
