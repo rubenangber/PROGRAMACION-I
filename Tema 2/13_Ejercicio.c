@@ -1,10 +1,9 @@
 #include <stdio.h>
 #include <stdio.h>
 #include <math.h>
-
 #define PI 3.14
 
-int main(){
+int main() {
 	printf("%c\n", 160);
     printf("M%cs, Ver%cn, Autom%ctico\n",160, 160, 160);
     printf("%c\n",130);

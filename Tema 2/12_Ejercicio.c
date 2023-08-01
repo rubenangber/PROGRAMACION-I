@@ -1,10 +1,9 @@
 #include <stdio.h>
 #include <stdio.h>
 #include <math.h>
-
 #define PI 3.14
 
-int main(){
+int main() {
     float radio, volumen;
     
     printf("Introduce el radio >> ");

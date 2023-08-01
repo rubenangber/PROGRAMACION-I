@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdio.h>
 
-int main(){
+int main() {
     int num, doble;
     
     printf("Introduzca un numero entero >> ");
@@ -9,7 +9,7 @@ int main(){
     
     doble = num * 2;
     
-    printf("El doble de %d es >> %d\n",num, doble);
+    printf("El doble de %d es >> %d\n", num, doble);
     
     return 0;
 }
