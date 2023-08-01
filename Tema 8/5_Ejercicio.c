@@ -4,7 +4,6 @@
 #include <ctype.h>
 #define PUNTOS 15.0
 
-void presentacion(void);
 void moduloPrincipal(void);
 double seno(double);
 

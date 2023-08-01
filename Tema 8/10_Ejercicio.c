@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #define DIM 50
 
-void presentacion(void);
 int  divisores(unsigned int *, int, unsigned int);
 void presentaVector(unsigned int *, int);
 
