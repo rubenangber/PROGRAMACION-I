@@ -9,7 +9,7 @@ int main(){
     scanf("%f", &c);
     printf("Tasa de interes (en %%) >> ");
     scanf("%f", &r);
-    printf("Tiempo (en anios) >> ");
+    printf("Tiempo (en años) >> ");
     scanf("%d", &t);
 
     t_dias = t * 365;
