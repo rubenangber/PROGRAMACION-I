@@ -1,2 +1,2 @@
 # PROGRAMACION-I
-Ejercicios propuestos en clase (USAL)
+Ejercicios de programacion 1 (USAL)
